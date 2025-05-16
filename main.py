@@ -23,7 +23,7 @@ uart1 = UART(1, baudrate=9600, tx=Pin(8), rx=Pin(9))
 
 uart0 = UART(0, baudrate=9600, tx=Pin(0), rx=Pin(1))
 
-txdat= 'hello\n\r'
+txdat= 'world\n\r'
 
 uart1.write(txdat)
 time.sleep(2)
