@@ -26,7 +26,7 @@ uart0 = UART(0, baudrate=9600, tx=Pin(0), rx=Pin(1))
 txdat= 'hello\n\r'
 
 uart1.write(txdat)
-time.sleep(1)
+#time.sleep(1)
 rxdat=bytes()
 
 while uart0.any() > 0:
