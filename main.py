@@ -15,7 +15,7 @@
 #     LED.on()
 #     time.sleep_ms(TIME_MS)
 
-uart tx and rx
+#uart tx and rx
 from machine import UART, Pin
 import time
 
